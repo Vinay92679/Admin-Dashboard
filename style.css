@@ -1,0 +1,27 @@
+/* ============NAVBAR============ */
+
+.search_Bar {
+ width: 55%;
+ max-width: 450px;
+}
+.search_Bar input{
+ border-radius: 12px;
+}
+.select_menu{
+ max-width: 450px;
+}
+.select_menu label{
+ border-radius: 12px 0px 0px 12px;
+ color: rgb(0, 174, 243);
+ /* font-weight: 600; */
+}
+.select_menu select{
+ border-radius: 0px 12px 12px 0px;
+}
+.navbar-nav form input{
+ background: #eeeff0;
+ border: none;
+}
+
+
+/* ========== */

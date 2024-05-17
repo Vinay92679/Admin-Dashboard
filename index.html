@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="./style.css" rel="stylesheet">
     <title>Admin-Dashboard</title>
   </head>
   <body>
@@ -12,28 +13,40 @@
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <a class="navbar-brand" href="#">Logo</a>
+          <a class="navbar-brand d-flex" href="#">
+            Logo
+            <p class="mb-0 ms-3 fw-bolder">Oliver <br> Miller</p>
+          </a>
           <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <form class="d-flex">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <ul class="navbar-nav w-100 mb-2 mb-lg-0 d-lg-flex align-items-lg-center">
+              <form class="d-flex search_Bar">
+                  <input class="form-control me-2 py-3" type="search" placeholder="Search Dashboard..." aria-label="Search">
                   <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
               </form>
-              <div class="input-group p-3"> 
-                <label class="input-group-text text-bg-success" 
+              <div class="input-group select_menu p-3"> 
+                <label class="input-group-text text-bg-success bg-white p-3 fw-bolder" 
                        for="inputGroupSelect01">Switch Company</label> 
                 <select class="form-select" id="inputGroupSelect01">  
                     <option value="1">Oliver Miller</option>  
                 </select> 
-            </div class="me-auto">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </div class="">
+              <li class="nav-item ms-auto">
+                <!-- <a class="nav-link active" aria-current="page" href="#">Home</a> -->
+                <div class="d-flex flex-row align-items-center">
+                  <p class="mb-0 me-3">logo</p>
+                  <div class="me-3">
+                    <p class="m-0">Welcome back,</p>
+                    <p class="m-0">Yoss!</p>
+                  </div>
+                  <div>logo</div>
+                </div>
               </li>
             </ul>
           </div>
         </div>
     </nav>
-    <div class="container-fluid">
+
+    <div class="container-fluid mt-5">
         <div class="row mw-70 text-center">
             <div class="col p-4">
                 <h6>Dashboard</h6>
@@ -70,6 +83,137 @@
             </div>
         </div>
     </div>
+
+    <div class="container-fluid mt-5">
+      <div class="row">
+          <div class="col-md-2 border">
+              <h3>sidebar</h3>
+          </div>
+
+          <div class="col-md-10 border">
+          <div class="col-md-10 d-flex">
+            <div class="card col">
+              <div class="card-body">
+                <div class="d-flex align-items-center">
+                  <div class="me-2 border p-4">
+                     logo
+                  </div>
+                  <div>
+                      <h3 class="m-0">$32,350.00</h3>
+                      <p class="m-0">Total Revenue</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card col">
+              <div class="card-body">
+                <div class="d-flex align-items-center">
+                  <div class="me-2 border p-4">
+                     logo
+                  </div>
+                  <div>
+                      <h3 class="m-0">$6000</h3>
+                      <p class="m-0">Total Expenses</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card col">
+              <div class="card-body">
+                <div class="d-flex align-items-center">
+                  <div class="me-2 border p-4">
+                     logo
+                  </div>
+                  <div>
+                      <h3 class="m-0">$56,034.00</h3>
+                      <p class="m-0">Account Receivable</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card col">
+              <div class="card-body">
+                <div class="d-flex align-items-center">
+                  <div class="me-2 border p-4">
+                     logo
+                  </div>
+                  <div>
+                      <h3 class="m-0">$67,083.00</h3>
+                      <p class="m-0">Account Payable</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-10 d-flex">
+            <div class="card col">
+              <div class="card-body">
+                <div class="d-flex align-items-center">
+                  <div class="me-2 border p-4">
+                     logo
+                  </div>
+                  <div>
+                      <h3 class="m-0">3478</h3>
+                      <p class="m-0">Item missing Images</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card col">
+              <div class="card-body">
+                <div class="d-flex align-items-center">
+                  <div class="me-2 border p-4">
+                     logo
+                  </div>
+                  <div>
+                      <h3 class="m-0">237</h3>
+                      <p class="m-0">Items missing FOB Costs</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card col">
+              <div class="card-body">
+                <div class="d-flex align-items-center">
+                  <div class="me-2 border p-4">
+                     logo
+                  </div>
+                  <div>
+                      <h3 class="m-0">160</h3>
+                      <p class="m-0">PO Items missing costs</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card col">
+              <div class="card-body">
+                <div class="d-flex align-items-center">
+                  <div class="me-2 border p-4">
+                     logo
+                  </div>
+                  <div>
+                      <h3 class="m-0">0/$0.00</h3>
+                      <p class="m-0">Booked</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row mt-5">
+            <div class="col-md-6 border">
+              <canvas id="myChart" style="width:100%;max-width:700px"></canvas>
+            </div>
+            <div class="col-md-6 border">
+              <canvas id="barChart" style="width:100%;max-width:600px"></canvas>
+            </div>
+          </div>
+          </div>
+      </div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <script src="./index.js"></script>
   </body>
 </html>
