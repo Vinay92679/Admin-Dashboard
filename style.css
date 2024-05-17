@@ -1,3 +1,6 @@
+body{
+    background: #eeeff0;
+}
 /* ============NAVBAR============ */
 
 .search_Bar {
@@ -25,3 +28,39 @@
 
 
 /* ========== */
+
+.tabs_section{
+    border-radius: 12px;
+    background: white;
+    max-width: 97%;
+}
+.tabs_section a{
+    text-decoration: none;
+}
+.tabs_section ul{
+    list-style-type: none;
+    padding: 24px 0px 28px;
+    /* background: gray; */
+}
+.tabs_section a{
+    color: black;
+    font-weight: 600;
+}
+.tabs_section .active i{
+    font-size: 20px;
+    padding: 7px 12px;
+    background: white;
+    color: skyblue;
+    border-radius: 12px;
+    margin-right: 10px
+}
+.tabs_section a{
+    color: black;
+    padding: 30px;
+}
+.tabs_section .active{
+    color: white;
+    /* background: linear-gradient(45deg, #6edcff, transparent); */
+    padding: 30px;
+    border-radius: 12px;
+    background: #68b0f8;}
