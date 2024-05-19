@@ -25,14 +25,41 @@ body{
  background: #eeeff0;
  border: none;
 }
-
+.profile_img{
+    width: 65px;
+    height: 63px;
+    border-radius: 23px;
+    margin-right: 10px;
+}
+.profile_name{
+    color: rgb(0, 174, 243);
+    font-weight: 700;
+}
+.comp_logo{
+    background: #68b0f8;
+    padding: 10px 15px;
+    border-radius: 22px;
+}
 
 /* ========== */
 
 .tabs_section{
     border-radius: 12px;
     background: white;
-    max-width: 97%;
+    width: 97%;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+.tabs_section::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, and Opera */
+  }
+.tabs_section i{
+    font-weight: 900;
+    font-size: 20px;
+    padding: 8px 13px;
+    background: #eeeff0;
+    border-radius: 12px;
+    margin-right: 10px;
 }
 .tabs_section a{
     text-decoration: none;
